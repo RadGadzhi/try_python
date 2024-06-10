@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Data Table</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Actions</th>
+        </tr>
+        {% for action in data %}
+        <tr>
+            <td>{{ action.id }}</td>
+            <td>{{ action.name }}</td>
+            <td>{{ action.age }}</td>
+            <td><a href="{{ url_for('edit', id=action.id) }}">Edit</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="{{ url_for('form') }}">Add New Data</a>
+</body>
+</html>
