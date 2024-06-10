@@ -136,3 +136,26 @@
 2024-06-10 13:14:12,628 INFO __main__ Table page accessed
 2024-06-10 13:14:12,629 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 13:14:12] "GET /table HTTP/1.1" 200 -
 2024-06-10 13:14:12,667 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 13:14:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-10 14:41:01,526 INFO __main__ Creating database tables
+2024-06-10 14:41:01,534 INFO __main__ Starting Flask application
+2024-06-10 14:41:01,560 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-10 14:41:01,561 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-06-10 14:41:01,563 INFO werkzeug  * Restarting with stat
+2024-06-10 14:41:02,074 INFO __main__ Creating database tables
+2024-06-10 14:41:02,074 INFO __main__ Starting Flask application
+2024-06-10 14:41:02,086 WARNING werkzeug  * Debugger is active!
+2024-06-10 14:41:02,090 INFO werkzeug  * Debugger PIN: 253-790-534
+2024-06-10 14:41:02,413 INFO __main__ Table page accessed
+2024-06-10 14:41:02,424 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 14:41:02] "GET /table HTTP/1.1" 200 -
+2024-06-10 14:41:02,550 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 14:41:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-10 14:41:11,757 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 14:41:11] "GET /edit/3 HTTP/1.1" 200 -
+2024-06-10 14:41:11,790 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 14:41:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-10 14:41:12,903 INFO __main__ Table page accessed
+2024-06-10 14:41:12,905 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 14:41:12] "GET /table HTTP/1.1" 200 -
+2024-06-10 14:41:12,935 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 14:41:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-10 14:41:14,533 INFO __main__ Form page accessed
+2024-06-10 14:41:14,586 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 14:41:14] "GET / HTTP/1.1" 200 -
+2024-06-10 14:41:15,527 INFO __main__ Table page accessed
+2024-06-10 14:41:15,529 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 14:41:15] "GET /table HTTP/1.1" 200 -
+2024-06-10 14:41:15,566 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 14:41:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
