@@ -58,14 +58,15 @@ def edit(id):
             db.session.commit()
             logger.info(f"Data updated - ID: {id}, Name: {action.name}, Age: {action.age}")
             return redirect(url_for('table'))
-        except:
-            logger.error("Error updating data")
+        except Exception as e:
+            logger.error(f"Error updating data: {e}")
             return "There was an issue updating your data"
-        else: 
-            return render_template('edit.html', action=action)
+    else: 
+        return render_template('edit.html', action=action)
 
 if __name__ == '__main__':
     with app.app_context():
         logger.info("Creating database tables")
         db.create_all()  # Создаем таблицы
+    logger.info("Starting Flask application")
     app.run(debug=True, port=5000, threaded=True)  # Измените порт и добавьте параметр threaded

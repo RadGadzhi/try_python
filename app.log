@@ -23,3 +23,59 @@
 2024-06-07 16:29:30,660 INFO werkzeug 127.0.0.1 - - [07/Jun/2024 16:29:30] "GET / HTTP/1.1" 200 -
 2024-06-07 16:29:32,082 INFO werkzeug 127.0.0.1 - - [07/Jun/2024 16:29:32] "GET /table HTTP/1.1" 200 -
 2024-06-07 16:29:33,444 INFO werkzeug 127.0.0.1 - - [07/Jun/2024 16:29:33] "GET / HTTP/1.1" 200 -
+2024-06-10 12:49:14,917 INFO __main__ Creating database tables
+2024-06-10 12:49:15,026 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-10 12:49:15,026 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-06-10 12:49:15,043 INFO werkzeug  * Restarting with stat
+2024-06-10 12:49:15,571 INFO __main__ Creating database tables
+2024-06-10 12:49:15,587 WARNING werkzeug  * Debugger is active!
+2024-06-10 12:49:15,587 INFO werkzeug  * Debugger PIN: 253-790-534
+2024-06-10 12:49:33,197 INFO __main__ Form page accessed
+2024-06-10 12:49:33,200 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:49:33] "GET / HTTP/1.1" 200 -
+2024-06-10 12:49:35,139 INFO __main__ Table page accessed
+2024-06-10 12:49:35,142 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:49:35] "GET /table HTTP/1.1" 200 -
+2024-06-10 12:49:35,186 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:49:35] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-06-10 12:49:45,302 INFO __main__ Form page accessed
+2024-06-10 12:49:45,303 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:49:45] "GET / HTTP/1.1" 200 -
+2024-06-10 12:49:49,762 INFO __main__ Data received - Name: dasikjdk, Age: 123
+2024-06-10 12:49:49,771 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:49:49] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2024-06-10 12:49:49,778 INFO __main__ Table page accessed
+2024-06-10 12:49:49,780 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:49:49] "GET /table HTTP/1.1" 200 -
+2024-06-10 12:49:49,812 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:49:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-06-10 12:49:51,872 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:49:51] "[35m[1mGET /edit/1 HTTP/1.1[0m" 500 -
+2024-06-10 12:49:52,110 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:49:52] "GET /edit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-10 12:49:52,113 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:49:52] "GET /edit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-10 12:49:52,154 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:49:52] "GET /edit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-10 12:49:52,198 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:49:52] "[36mGET /edit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-10 12:59:28,404 INFO __main__ Creating database tables
+2024-06-10 12:59:28,418 INFO __main__ Starting Flask application
+2024-06-10 12:59:28,441 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-10 12:59:28,441 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-06-10 12:59:28,451 INFO werkzeug  * Restarting with stat
+2024-06-10 12:59:29,000 INFO __main__ Creating database tables
+2024-06-10 12:59:29,000 INFO __main__ Starting Flask application
+2024-06-10 12:59:29,012 WARNING werkzeug  * Debugger is active!
+2024-06-10 12:59:29,016 INFO werkzeug  * Debugger PIN: 253-790-534
+2024-06-10 12:59:34,627 INFO __main__ Form page accessed
+2024-06-10 12:59:34,630 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:34] "GET / HTTP/1.1" 200 -
+2024-06-10 12:59:36,624 INFO __main__ Table page accessed
+2024-06-10 12:59:36,636 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:36] "GET /table HTTP/1.1" 200 -
+2024-06-10 12:59:36,675 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:36] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-06-10 12:59:37,924 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:37] "GET /edit/1 HTTP/1.1" 200 -
+2024-06-10 12:59:37,962 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:37] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-06-10 12:59:42,673 INFO __main__ Data updated - ID: 1, Name: dasikjdk, Age: 123
+2024-06-10 12:59:42,674 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:42] "[32mPOST /edit/1 HTTP/1.1[0m" 302 -
+2024-06-10 12:59:42,680 INFO __main__ Table page accessed
+2024-06-10 12:59:42,682 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:42] "GET /table HTTP/1.1" 200 -
+2024-06-10 12:59:42,716 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:42] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-06-10 12:59:44,167 INFO __main__ Form page accessed
+2024-06-10 12:59:44,168 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:44] "GET / HTTP/1.1" 200 -
+2024-06-10 12:59:49,566 INFO __main__ Data received - Name: 123, Age: 18723
+2024-06-10 12:59:49,572 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:49] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2024-06-10 12:59:49,578 INFO __main__ Table page accessed
+2024-06-10 12:59:49,579 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:49] "GET /table HTTP/1.1" 200 -
+2024-06-10 12:59:49,614 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-06-10 12:59:53,393 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:53] "GET /edit/2 HTTP/1.1" 200 -
+2024-06-10 12:59:53,430 INFO werkzeug 127.0.0.1 - - [10/Jun/2024 12:59:53] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
