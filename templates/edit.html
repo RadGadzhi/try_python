@@ -7,14 +7,22 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Edit Data</h1>
-    <form method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" value="{{ action.name }}" required><br>
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age" value="{{ action.age }}" required><br>
-        <input type="submit" value="Update">
-    </form>
-    <a href="{{ url_for('table') }}">Back to Table</a>
+    <div class="container">
+        <h1>Edit Data</h1>
+        <form method="POST" class="form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="{{ action.name }}" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" value="{{ action.age }}" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Update">
+            </div>
+        </form>
+        <a href="{{ url_for('table') }}">Back to Table</a>
+    </div>
 </body>
 </html>

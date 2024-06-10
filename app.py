@@ -53,7 +53,7 @@ def edit(id):
     action = UserAction.query.get_or_404(id)
     if request.method == "POST":
         action.name = request.form['name']
-        action.page = request.form['age']
+        action.age = request.form['age']
         try:
             db.session.commit()
             logger.info(f"Data updated - ID: {id}, Name: {action.name}, Age: {action.age}")
